@@ -1,0 +1,61 @@
+Sample output:
+
+1-> menu
+
+1.Create Database
+2.Search Word
+3.Save to file
+4.Display Database
+5.Update Database
+6.Exit
+
+Enter choice:
+-----------------------------------------
+
+2-> validation
+root@LAPTOP-GH45FCUE:~/inverted_index# ./a.out third.txt forth.txt second.tx ji.txt
+
+INFO: forth.txt file is empty, and will not be included
+INFO: second.tx file is not a txt file
+INFO: ji.txt file not present
+------------------------------------------
+
+3->create Database
+Enter choice: 1
+
+INFO: Database created successfully
+------------------------------------------
+
+4->Update Database
+Enter choice: 5
+Enter the file name using which data base to be created: data.txt
+
+INFO: Data base updated successfully
+------------------------------------------
+
+5->Search Word
+Enter choice: 2
+Enter the word to search: hello!
+
+[7] hello! 1 second.txt 1
+------------------------------------------
+
+6->Display Database
+Enter choice: 4
+
+INFO: Displaying data in formate
+[index] word file_count file_name word_count...
+
+[0] ABC 2 first.txt 2 second.txt 1 
+[4] EIF 1 second.txt 1 
+[7] hello! 1 second.txt 1 
+[26] @email 1 second.txt 1 
+------------------------------------------
+
+7->save to file
+Enter choice: 3
+Enter file name where to be saved: data.txt
+
+INFO: Data saved successfully
+------------------------------------------
+

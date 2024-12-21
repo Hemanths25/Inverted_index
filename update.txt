@@ -1,0 +1,7 @@
+#[0],an,1,third.txt,1#
+#[0],apple,1,third.txt,1#
+#[0],a,1,third.txt,1#
+#[0],away,1,third.txt,1#
+#[3],day,1,third.txt,1#
+#[3],doctor,1,third.txt,1#
+#[10],keeps,1,third.txt,1#
